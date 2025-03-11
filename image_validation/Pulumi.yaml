@@ -1,0 +1,11 @@
+name: image_validation
+description: human validation POC
+runtime:
+  name: python
+  options:
+    toolchain: pip
+    virtualenv: venv
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-python
